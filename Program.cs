@@ -19,7 +19,7 @@ namespace shiftingArrayValues
 
             Console.WriteLine("----------------------------------");
 
-            for (int i = 0; i < userInput; i++)
+            for (int i = 0; i < (userInput % numberes.Length) ; i++)
             {
                 temp = numberes[0];
 
